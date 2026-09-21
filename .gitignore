@@ -23,16 +23,16 @@ Thumbs.db
 desktop.ini
 
 # Apache NetBeans specific
-**/nbproject/private/
-**/nbproject/Makefile-*.mk
-**/nbproject/Package-*.bash
-**/build/
-**/dist/
-**/nbbuild/
-**/nbdist/
+**/project/nbproject/private/
+**/project/nbproject/Makefile-*.mk
+**/project/nbproject/Package-*.bash
+**/project/build/
+**/project/dist/
+**/project/nbbuild/
+**/project/nbdist/
 
 # Maven/Gradle (if any)
-**/target/
+**/project/target/
 .gradle/
 
 # Other IDEs

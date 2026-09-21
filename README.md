@@ -14,26 +14,26 @@ Repositori ini disusun berdasarkan modul praktikum (Modul 1 hingga Modul 15). Se
 ```text
 ├── modul-01-running-modul/
 │   ├── docs/
-│   └── src/
+│   └── project/
 ├── modul-02-intro/
 │   ├── docs/
-│   └── src/
+│   └── project/
 ...
 ```
 
 - **`docs/`**: Digunakan untuk menyimpan file Laporan Praktikum (PDF), dokumentasi tugas, atau *screenshot* hasil eksekusi program.
-- **`src/`**: Digunakan sebagai direktori *Project Apache NetBeans* yang memuat seluruh *source code* (`.java`) dari modul yang bersangkutan.
+- **`project/`**: Digunakan sebagai direktori *Project Apache NetBeans* yang memuat seluruh *source code* (`.java`) dari modul yang bersangkutan.
 
 ## Panduan Pengerjaan di Apache NetBeans
 
 ### 1. Membuat/Membuka Project
-Karena setiap modul memiliki tugasnya masing-masing, jadikan folder `src/` pada setiap modul sebagai satu buah **Java Application Project** di NetBeans.
+Karena setiap modul memiliki tugasnya masing-masing, jadikan folder `project/` pada setiap modul sebagai satu buah **Java Application Project** di NetBeans.
 - **Cara Membuat Project Baru:**
-  1. Buka NetBeans, pilih **File** > **New Project** > **Java with Ant** > **Java Application**.
+  1. Buka NetBeans, pilih **File** > **New Project** > **Java with Maven** > **Java Application**.
   2. Klik Next.
   3. Pada **Project Name**, isi sesuai modul (misal: `Modul01`).
   4. Pada **Project Location**, arahkan (*Browse*) tepat ke dalam folder modul yang sedang Anda kerjakan (contoh: `modul-01-running-modul/`).
-  5. Pastikan folder kode utama (*Source Packages*) Anda ter-generate di dalam subfolder `src/`.
+  5. Pastikan folder kode utama (*Source Packages*) Anda ter-generate di dalam subfolder `project/`.
 
 ### 2. Struktur Package `guided` dan `unguided`
 Untuk mempermudah asisten praktikum saat mengoreksi, dan memisahkan antara latihan dengan tugas mandiri, susunlah *package* di dalam project Java Anda menjadi dua:
