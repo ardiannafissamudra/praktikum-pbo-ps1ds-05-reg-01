@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Praktikum Pemrograman Berorientasi Objek (PBO)
 
 Repositori ini adalah tempat pengumpulan tugas dan laporan praktikum Pemrograman Berorientasi Objek (PBO) berbasis Java.
@@ -79,3 +80,7 @@ Setelah Anda menyelesaikan satu modul praktikum (laporan dan *source code*), iku
    git push origin main
    ```
 *(Catatan: Pesan peringatan `LF will be replaced by CRLF` yang mungkin muncul saat proses `git add` pada Windows adalah hal yang wajar dan aman untuk diabaikan).*
+=======
+# Repo-PBO
+Ardian Nafis Samudra-103132400012
+>>>>>>> aa8e146db0b8f060df2be5c58f2e6d227c352e6c
